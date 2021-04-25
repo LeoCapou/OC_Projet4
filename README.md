@@ -32,7 +32,7 @@ python -m venv .venv
 2. activer l'environnement virtuel
 
 ```
-.venv\Scripts\activate.bat
+.\.venv\Scripts\activate
 ```
 
 Pour plus de détails sur l'installation d'un environnement virtuel, se reporter à [la documentation Python](https://docs.python.org/fr/3.6/tutorial/venv.html)
