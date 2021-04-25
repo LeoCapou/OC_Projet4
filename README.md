@@ -27,12 +27,12 @@ Voici les principales commandes pour:
 1. créer l'environnement virtuel
 
 ```
-python3 -m venv tutorial-env
+python -m venv .venv
 ```
 2. activer l'environnement virtuel
 
 ```
-tutorial-env\Scripts\activate.bat
+.venv\Scripts\activate.bat
 ```
 
 Pour plus de détails sur l'installation d'un environnement virtuel, se reporter à [la documentation Python](https://docs.python.org/fr/3.6/tutorial/venv.html)
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 Une fois la console placée dans le dossier du programme, il suffit d'exécuter la commande suivante dans l'environnement virtuel:
 ```
-python3 controleur.py
+python main.py
 ```
 Un fichier `db.json` est créé: ce fichier correspond à la base de données dans laquelle vous pourrez sauvegarder l'état du programme ou à partir de laquelle vous pourrez importer des données. Il est déconseillé de la manipuler manuellement au risque de corrompre son formatage et empêcher sa lecture.
 
